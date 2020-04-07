@@ -38,7 +38,6 @@ def get_english_meaning(file, jap_emote)
      meaning = key
     end
   end
-  binding.pry
     if eng_emote != ""
       eng_emote
     else
