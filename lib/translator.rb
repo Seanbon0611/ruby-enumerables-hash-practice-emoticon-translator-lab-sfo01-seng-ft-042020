@@ -38,8 +38,8 @@ def get_english_meaning(file, jap_emote)
      meaning = key
     end
   end
-    if eng_emote != ""
-      eng_emote
+    if meaning != ""
+      meaning
     else
      "Sorry, that emoticon was not found"
     end 
